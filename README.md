@@ -7,8 +7,8 @@
 ---
 
 ## 📌 Participant Information
-- **Participant Name**: Aftab
-- **Registration Number**: 221-15-5164
+- **Participant Name**: Aftab Hosen
+- **Registration Number**: cmu0h4hnq0018o0knfnsdurt5
 - **Repository Link**: [https://github.com/aftab168/Tender-Document-Package-Builder](https://github.com/aftab168/Tender-Document-Package-Builder)
 - **Live HTTPS Deployment Link**: [https://aftab168.github.io/Tender-Document-Package-Builder/](https://aftab168.github.io/Tender-Document-Package-Builder/)
 
