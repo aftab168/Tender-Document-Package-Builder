@@ -1,0 +1,39 @@
+{
+  "name": "tender-document-package-builder",
+  "version": "1.0.0",
+  "description": "Tender Document Package Builder - Solo AI Vibe-Coding Contest App for AI DevFest 2026",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aftab168/Tender-Document-Package-Builder.git"
+  },
+  "keywords": [
+    "tender",
+    "pdf-builder",
+    "procurement",
+    "ai-devfest-2026",
+    "react",
+    "pdf-lib"
+  ],
+  "author": "Aftab",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^1.52.0",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.3"
+  }
+}

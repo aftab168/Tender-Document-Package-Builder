@@ -1,0 +1,104 @@
+export const sampleRequirements = {
+  tender: {
+    tender_id: "T-2026-0417",
+    title: "Supply of IT Equipment",
+    procuring_entity: "Directorate of Sample Services",
+    bidder: "Meghna Tech Solutions Ltd.",
+    submission_deadline: "2026-10-20"
+  },
+  requirements: [
+    {
+      id: "R01",
+      order: 1,
+      title_en: "Trade License",
+      title_bn: "ট্রেড লাইসেন্স",
+      mandatory: true,
+      has_expiry: true
+    },
+    {
+      id: "R02",
+      order: 2,
+      title_en: "TIN Certificate",
+      title_bn: "টিআইএন সনদ",
+      mandatory: true,
+      has_expiry: false
+    },
+    {
+      id: "R03",
+      order: 3,
+      title_en: "VAT Registration Certificate",
+      title_bn: "ভ্যাট নিবন্ধন সনদ",
+      mandatory: true,
+      has_expiry: false
+    },
+    {
+      id: "R04",
+      order: 4,
+      title_en: "Bank Solvency Certificate",
+      title_bn: "ব্যাংক সচ্ছলতা সনদ",
+      mandatory: true,
+      has_expiry: true
+    },
+    {
+      id: "R05",
+      order: 5,
+      title_en: "Experience Certificate",
+      title_bn: "অভিজ্ঞতার সনদ",
+      mandatory: true,
+      has_expiry: false
+    },
+    {
+      id: "R06",
+      order: 6,
+      title_en: "Audited Financial Statement",
+      title_bn: "নিরীক্ষিত আর্থিক বিবরণী",
+      mandatory: false,
+      has_expiry: false
+    },
+    {
+      id: "R07",
+      order: 7,
+      title_en: "Manufacturer's Authorization",
+      title_bn: "প্রস্তুতকারকের অনুমোদনপত্র",
+      mandatory: false,
+      has_expiry: true
+    },
+    {
+      id: "R08",
+      order: 8,
+      title_en: "Technical Proposal",
+      title_bn: "কারিগরি প্রস্তাব",
+      mandatory: true,
+      has_expiry: false
+    },
+    {
+      id: "R09",
+      order: 9,
+      title_en: "Financial Proposal",
+      title_bn: "আর্থিক প্রস্তাব",
+      mandatory: true,
+      has_expiry: false
+    },
+    {
+      id: "R10",
+      order: 10,
+      title_en: "Signed Declaration",
+      title_bn: "স্বাক্ষরিত ঘোষণাপত্র",
+      mandatory: true,
+      has_expiry: false
+    }
+  ]
+};
+
+export const sampleFilesList = [
+  { name: "01_financial_proposal.pdf", path: "./documents/01_financial_proposal.pdf" },
+  { name: "02_technical_proposal.pdf", path: "./documents/02_technical_proposal.pdf" },
+  { name: "03_tin_certificate.pdf", path: "./documents/03_tin_certificate.pdf" },
+  { name: "04_vat_certificate.pdf", path: "./documents/04_vat_certificate.pdf" },
+  { name: "bank_solvency.pdf", path: "./documents/bank_solvency.pdf" },
+  { name: "experience_cert (1).pdf", path: "./documents/experience_cert (1).pdf" },
+  { name: "experience_cert.pdf", path: "./documents/experience_cert.pdf" },
+  { name: "scan_0042.pdf", path: "./documents/scan_0042.pdf" },
+  { name: "trade_license_2025.pdf", path: "./documents/trade_license_2025.pdf" },
+  { name: "trade_license_2026.pdf", path: "./documents/trade_license_2026.pdf" }
+];
